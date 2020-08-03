@@ -130,9 +130,9 @@ let workoutSeed = [
         name: "Bench",
         duration: 30,
         distance: 2,
-      },
-    ],
-  },
+      }
+    ]
+  }
 ];
 
 db.Workout.deleteMany({})
