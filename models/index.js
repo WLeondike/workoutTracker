@@ -1,5 +1,3 @@
-const { model } = require("mongoose");
-
-model.exports = {
+module.exports = {
   Workout: require("./Workout"),
 };
